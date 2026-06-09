@@ -1,0 +1,134 @@
+[
+    {
+        "id": "roma",
+        "nombre": "Antigua Roma",
+        "imagen": "assets/images/roma.jpg",
+        "descripcion": "El Imperio Romano desarrolló una rica tradición culinaria que combinaba influencias de todo el Mediterráneo.",
+        "recetas": [
+            {
+                "nombre": "Panis Quadratus",
+                "imagen": "assets/images/panis-quadratus.jpg",
+                "descripcion": "El pan romano clásico, reconocible por su forma redonda dividida en ocho secciones. Este pan era el alimento básico de los ciudadanos romanos, desde los más humildes hasta los patricios. Se elaboraba con harina de trigo, agua, sal y levadura natural. Los panaderos romanos (pistores) lo horneaban en hornos de ladrillo y lo marcaban con sellos distintivos de cada panadería. Era tan importante que el Estado romano garantizaba su distribución gratuita a los ciudadanos más pobres."
+            },
+            {
+                "nombre": "Garum",
+                "imagen": "assets/images/garum.jpg",
+                "descripcion": "La famosa salsa de pescado fermentado, considerada el condimento más preciado de la cocina romana. Se elaboraba dejando fermentar vísceras de pescado (principalmente anchoas y caballas) con sal bajo el sol durante meses. El garum de mayor calidad, llamado 'garum sociorum', podía costar más que los perfumes más caros. Se utilizaba para sazonar prácticamente todos los platos, desde carnes hasta postres. Las factorías de garum más famosas estaban en Hispania, particularmente en Baelo Claudia."
+            },
+            {
+                "nombre": "Gustum de Praecoquis",
+                "imagen": "assets/images/gustum.jpg",
+                "descripcion": "Un elegante entrante romano hecho con albaricoques frescos. Los romanos adoraban comenzar sus cenas (cena) con entrantes ligeros llamados 'gustatio'. Esta receta combina albaricoques con pimienta, menta, vinagre y garum, creando un equilibrio perfecto entre dulce, ácido y umami. Era especialmente popular en los banquetes de la aristocracia romana durante el verano, cuando los albaricoques estaban en su punto óptimo de madurez."
+            },
+            {
+                "nombre": "Pullum Numidicum",
+                "imagen": "assets/images/pullum.jpg",
+                "descripcion": "Pollo al estilo de Numidia, una receta del famoso libro de cocina de Apicio. El pollo se cocina con una mezcla de especias exóticas que incluye pimienta, comino, semillas de cilantro, laser (una especia extinta similar al asafétida), y se acompaña de una salsa de dátiles. Este plato representa la sofisticación de la alta cocina romana y su pasión por los sabores complejos. Los ingredientes procedían de todo el imperio, demostrando el poder y alcance de Roma."
+            },
+            {
+                "nombre": "Libum",
+                "imagen": "assets/images/libum.jpg",
+                "descripcion": "Un pastel ritual de queso que se ofrecía a los dioses, especialmente a Baco y los Lares del hogar. Se preparaba mezclando queso fresco (similar a la ricotta) con harina y huevo, formando pequeños pasteles que se horneaban sobre hojas de laurel. Catón el Viejo incluye esta receta en su obra 'De Agri Cultura'. Además de su función religiosa, el libum se servía como postre en ocasiones especiales, endulzado con miel y espolvoreado con semillas de amapola."
+            }
+        ]
+    },
+    {
+        "id": "incas",
+        "nombre": "Imperio Inca",
+        "imagen": "assets/images/incas.jpg",
+        "descripcion": "La civilización Inca desarrolló técnicas agrícolas avanzadas y una gastronomía basada en productos andinos únicos.",
+        "recetas": [
+            {
+                "nombre": "Pachamanca",
+                "imagen": "assets/images/pachamanca.jpg",
+                "descripcion": "El festín sagrado cocinado bajo tierra, una tradición que perdura desde tiempos preincaicos. 'Pachamanca' significa 'olla de tierra' en quechua. Se excava un hoyo en la tierra, se calienta con piedras volcánicas al rojo vivo, y se colocan capas de carnes (llama, cuy, alpaca), tubérculos (papas, camotes, ocas), habas y hierbas aromáticas como huacatay y chincho. Todo se cubre con hojas de plátano y tierra, cocinándose por varias horas. Era un ritual de agradecimiento a la Pachamama."
+            },
+            {
+                "nombre": "Chuño",
+                "imagen": "assets/images/chuno.jpg",
+                "descripcion": "La papa liofilizada natural de los Andes, una de las mayores innovaciones alimentarias de la humanidad. Los incas descubrieron que exponiendo las papas a las heladas nocturnas y al sol del día, y pisándolas para extraer la humedad, podían conservarlas por años. El chuño fue fundamental para alimentar a los ejércitos incas y a la población durante épocas de escasez. Se almacenaba en los 'qollqas', los depósitos estatales del Tahuantinsuyo. Aún hoy es un ingrediente esencial de la cocina andina."
+            },
+            {
+                "nombre": "Chicha de Jora",
+                "imagen": "assets/images/chicha.jpg",
+                "descripcion": "La bebida sagrada del imperio, elaborada a partir de maíz germinado y fermentado. Las 'acllas' o mujeres escogidas del Sol eran las encargadas de prepararla para las ceremonias religiosas y los banquetes del Inca. El proceso comenzaba masticando el maíz para iniciar la fermentación con enzimas salivales, aunque también se usaba maíz germinado (jora). La chicha tenía niveles de alcohol variables y se servía en 'queros', vasos ceremoniales de madera o metal precioso."
+            },
+            {
+                "nombre": "Cuy Chactado",
+                "imagen": "assets/images/cuy.jpg",
+                "descripcion": "El cuy (cobayo) frito, un manjar reservado para ocasiones especiales y ofrendas rituales. El cuy fue domesticado en los Andes hace más de 5,000 años y era considerado un animal sagrado. Para el chactado, el cuy se sazona con hierbas andinas y se fríe presionándolo con una piedra caliente hasta que quede crujiente. Se servía en ceremonias importantes y se usaba en rituales de sanación. Los curanderos andinos aún lo utilizan en diagnósticos tradicionales."
+            },
+            {
+                "nombre": "Locro de Zapallo",
+                "imagen": "assets/images/locro.jpg",
+                "descripcion": "Un reconfortante guiso de calabaza que alimentó a generaciones de pueblos andinos. El locro combina zapallo (calabaza andina), papas, maíz y ajíes, cocinados lentamente hasta formar un guiso cremoso y sustancioso. Era el plato cotidiano de las familias campesinas y se enriquecía con charqui (carne seca) en ocasiones especiales. La calabaza, considerada un regalo de los dioses, aportaba dulzura natural y una textura aterciopelada que hacía de este plato un verdadero consuelo en las frías noches andinas."
+            }
+        ]
+    },
+    {
+        "id": "egipto",
+        "nombre": "Antiguo Egipto",
+        "imagen": "assets/images/egipto.jpg",
+        "descripcion": "La civilización del Nilo creó una cocina sofisticada bendecida por las crecidas del río sagrado.",
+        "recetas": [
+            {
+                "nombre": "Pan Ta",
+                "imagen": "assets/images/pan-ta.jpg",
+                "descripcion": "El pan egipcio, tan esencial que servía como moneda de pago. Los antiguos egipcios fueron pioneros en la elaboración de pan con levadura, descubriendo accidentalmente la fermentación. Existían más de 30 variedades de pan, desde el básico para trabajadores hasta panes enriquecidos con miel, dátiles y especias para la nobleza. Los panaderos trabajaban en grandes instalaciones adjuntas a los templos y palacios. Se han encontrado panes momificados en tumbas, destinados a alimentar al difunto en el más allá."
+            },
+            {
+                "nombre": "Cerveza Heqet",
+                "imagen": "assets/images/heqet.jpg",
+                "descripcion": "La bebida de los dioses y del pueblo, más nutritiva que agua. La cerveza egipcia se elaboraba con pan de cebada fermentado, creando una bebida espesa y nutritiva con bajo contenido alcohólico. Era consumida por todas las clases sociales, desde faraones hasta esclavos. Los trabajadores de las pirámides recibían raciones diarias de cerveza como parte de su pago. Se aromatizaba con dátiles, granada o miel. La diosa Hathor era la patrona de la cerveza y la embriaguez ritual."
+            },
+            {
+                "nombre": "Dukkah",
+                "imagen": "assets/images/dukkah.jpg",
+                "descripcion": "Una mezcla ancestral de frutos secos, semillas y especias que ha sobrevivido milenios. El dukkah egipcio tradicional combina avellanas o almendras tostadas con semillas de cilantro, comino, sésamo, sal y pimienta. Se utilizaba para aderezar pan mojado en aceite de oliva, un desayuno que los egipcios modernos aún disfrutan. Las proporciones exactas eran secretos familiares transmitidos de generación en generación. También se usaba como condimento para carnes y verduras asadas."
+            },
+            {
+                "nombre": "Ful Medames",
+                "imagen": "assets/images/ful.jpg",
+                "descripcion": "El guiso de habas que ha alimentado a Egipto durante más de 4,000 años. Las habas se cocinaban lentamente en ollas de barro enterradas en brasas durante toda la noche. Por la mañana, se servían machacadas con aceite de oliva, jugo de limón, ajo y comino. Este plato humilde pero nutritivo era el desayuno tradicional de campesinos y artesanos. Representaciones en tumbas antiguas muestran su preparación, confirmando su antigüedad. Hoy sigue siendo el desayuno nacional de Egipto."
+            },
+            {
+                "nombre": "Wah",
+                "imagen": "assets/images/wah.jpg",
+                "descripcion": "Pasteles de miel y dátiles ofrecidos a los dioses y disfrutados en festivales. Estos dulces se elaboraban mezclando dátiles machacados, miel del Delta del Nilo, almendras y especias como canela y cardamomo. Se moldeaban en formas decorativas, a menudo representando flores de loto o escarabajos sagrados. Eran especialmente populares durante la festividad de Opet y otras celebraciones religiosas. Se han encontrado restos de estos pasteles en tumbas reales, incluyendo la de Tutankamón."
+            }
+        ]
+    },
+    {
+        "id": "espana",
+        "nombre": "Imperio Español",
+        "imagen": "assets/images/espana.jpg",
+        "descripcion": "El Imperio donde nunca se ponía el sol fusionó sabores de Europa, América, África y Asia.",
+        "recetas": [
+            {
+                "nombre": "Olla Podrida",
+                "imagen": "assets/images/olla-podrida.jpg",
+                "descripcion": "El suntuoso cocido castellano que alimentaba a reyes y nobles. A pesar de su nombre (que significa 'olla poderosa', no 'podrida'), era un plato de gran prestigio. Contenía múltiples carnes: cerdo, ternera, gallina, chorizo, morcilla y tocino, junto con garbanzos, verduras y especias. Se cocinaba durante horas en una olla de barro. Cervantes lo menciona en El Quijote como símbolo de abundancia. Era el plato principal de las grandes casas durante el Siglo de Oro español."
+            },
+            {
+                "nombre": "Mazapán de Toledo",
+                "imagen": "assets/images/mazapan.jpg",
+                "descripcion": "El dulce árabe que se convirtió en símbolo de la Navidad española. Introducido por los árabes durante Al-Ándalus, el mazapán alcanzó su perfección en los conventos de Toledo. Las monjas lo elaboraban con almendras molidas finísimas y azúcar, moldeándolo en figuras de santos, animales y frutas. La receta se mantenía en secreto conventual. El mazapán toledano obtuvo denominación de origen y sigue elaborándose artesanalmente. Era regalo obligado entre la nobleza durante las festividades."
+            },
+            {
+                "nombre": "Escabeche",
+                "imagen": "assets/images/escabeche.jpg",
+                "descripcion": "La técnica de conservación que conquistó el mundo desde las cocinas españolas. El escabeche (del árabe 'sikbaj') consiste en marinar carnes o pescados en vinagre, aceite y especias. Esta técnica permitía conservar alimentos durante los largos viajes de exploración y comercio del Imperio. Los galeones españoles llevaban barriles de escabeche a las Américas y Filipinas. Cada región desarrolló su versión: escabeche de perdiz en Castilla, de bonito en el Cantábrico, de pollo en América colonial."
+            },
+            {
+                "nombre": "Chocolate a la Española",
+                "imagen": "assets/images/chocolate.jpg",
+                "descripcion": "La bebida azteca transformada en obsesión europea. Los españoles descubrieron el cacao en México y lo adaptaron añadiendo azúcar y especias como canela y vainilla, eliminando el chile original. Se preparaba espeso, casi como pudding, y se batía hasta formar espuma con el molinillo. La corte española guardó celosamente el secreto del chocolate durante casi un siglo. Las chocolaterías se convirtieron en centros de reunión social. El chocolate caliente con churros nació en Madrid en el siglo XVII."
+            },
+            {
+                "nombre": "Empanada Gallega",
+                "imagen": "assets/images/empanada.jpg",
+                "descripcion": "El pastel relleno que viajó desde Galicia hasta los confines del Imperio. La empanada gallega, con su masa de trigo y relleno de atún, sardinas o carne con cebolla y pimentón, era el alimento perfecto para viajeros y peregrinos del Camino de Santiago. Los marineros gallegos la llevaron a América, donde evolucionó en múltiples versiones locales. En el Códice Calixtino medieval ya se mencionan las empanadas gallegas. Se horneaba en grandes piezas rectangulares para compartir en familia o comunidad."
+            }
+        ]
+    }
+]

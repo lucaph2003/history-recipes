@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explora recetas históricas de distintas civilizaciones antiguas">
+    <title>Recetas de la Antigüedad</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header Principal -->
+    <header class="header" role="banner">
+        <h1 class="header__title">Recetas de la Antigüedad</h1>
+    </header>
+
+    <!-- Contenedor Principal -->
+    <main class="main" role="main">
+        <!-- Vista de Culturas -->
+        <section id="culturas-view" class="view view--active" aria-label="Culturas antiguas">
+            <div id="culturas-grid" class="grid" role="list">
+                <!-- Las tarjetas se generan dinámicamente -->
+            </div>
+        </section>
+
+        <!-- Vista de Recetas -->
+        <section id="recetas-view" class="view" aria-label="Recetas de la cultura">
+            <button 
+                id="btn-volver" 
+                class="btn-volver" 
+                aria-label="Volver a las culturas"
+                type="button"
+            >
+                <span class="btn-volver__icon">←</span>
+                <span class="btn-volver__text">Volver</span>
+            </button>
+            <h2 id="recetas-titulo" class="recetas-titulo"></h2>
+            <div id="recetas-grid" class="grid" role="list">
+                <!-- Las recetas se generan dinámicamente -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal de Receta -->
+    <div 
+        id="modal" 
+        class="modal" 
+        role="dialog" 
+        aria-modal="true" 
+        aria-labelledby="modal-titulo"
+        aria-hidden="true"
+    >
+        <div class="modal__overlay" data-close-modal></div>
+        <article class="modal__content">
+            <button 
+                class="modal__close" 
+                aria-label="Cerrar modal"
+                type="button"
+                data-close-modal
+            >
+                ×
+            </button>
+            <figure class="modal__image-container">
+                <img id="modal-imagen" class="modal__image" src="" alt="">
+            </figure>
+            <div class="modal__body">
+                <h3 id="modal-titulo" class="modal__title"></h3>
+                <p id="modal-descripcion" class="modal__description"></p>
+            </div>
+        </article>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
