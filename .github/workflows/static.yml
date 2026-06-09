@@ -31,13 +31,36 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Check Pages site
+        id: pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          response_file="$(mktemp)"
+          status_code="$(curl -sS -o "$response_file" -w "%{http_code}" \
+            -H "Accept: application/vnd.github+json" \
+            -u "x-access-token:${GH_TOKEN}" \
+            "${{ github.api_url }}/repos/${{ github.repository }}/pages")"
+
+          if [ "$status_code" = "200" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          elif [ "$status_code" = "404" ]; then
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "GitHub Pages is not enabled for this repository; skipping deployment."
+          else
+            cat "$response_file"
+            exit 1
+          fi
       - name: Setup Pages
+        if: steps.pages.outputs.enabled == 'true'
         uses: actions/configure-pages@v5
       - name: Upload artifact
+        if: steps.pages.outputs.enabled == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
           path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
+        if: steps.pages.outputs.enabled == 'true'
         uses: actions/deploy-pages@v5
